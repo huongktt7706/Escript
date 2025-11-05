@@ -1,4 +1,4 @@
-function createBook(title, author, year, price) {
+function Book(title, author, year, price) {
   const discountKey = "calculateDiscount";
   return {
     title,
