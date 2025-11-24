@@ -3,7 +3,7 @@ import Button from "./Button";
 function TourCard({ image, title, price }) {
     return (
         <div
-            className="bg-white rounded-xl shadow-md overflow-hidden
+            className="bg-red rounded-xl shadow-md overflow-hidden
             w-72 cursor-pointer transform transition-all duration-300
             hover:scale-105 hover:shadow-2xl"
         >
@@ -17,8 +17,8 @@ function TourCard({ image, title, price }) {
 
               
                 <div
-                    className="absolute bottom-2 right-2 bg-blue-600 text-white px-4 py-1 
-                    rounded-lg font-bold text-lg shadow-lg transition-all duration-300 hover:bg-blue-700"
+                    className="absolute bottom-2 right-2 bg-red-600 text-white px-4 py-1 
+                    rounded-lg font-bold text-lg shadow-lg transition-all duration-300 hover:bg-red-700"
                 >
                     Giá: {price}
                 </div>
